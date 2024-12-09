@@ -30,7 +30,6 @@ const style = document.createElement('style');
 style.textContent =`
     .purchased {
         text-decoration: underline;
-        background-color: #d4edda; /* Light green background */
         display:list-item;
         padding: 5px;
         border-radius: 5px;
@@ -38,4 +37,14 @@ style.textContent =`
     }        
 `;
 document.head.appendChild(style);
+
+//Allow users to edit existing items
+li.addEventListener('dbclick', function(e){
+    const newItem = prompt("Edit item name: ", li.textContent);
+    if(newItem !== null & newItem.trim() !== ""){
+        li.textContent= newItem;//Update the text for the list item
+        saveListToLocalStorage();//save changes
+    }
+});
+
 
