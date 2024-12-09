@@ -19,12 +19,14 @@ form.addEventListener('submit', function(e){
     itemNameInput.value = ""; // Clear the input field
     }
        
-})
+});
+
+
 //Add event listener for clearing the list
 clearButton.addEventListener('click', function(e){
     e.preventDefault();
     shoppingList.innerHTML= "";//clear all list items
-})
+});
 // Add CSS to style purchased items
 const style = document.createElement('style');
 style.textContent =`
@@ -38,13 +40,8 @@ style.textContent =`
 `;
 document.head.appendChild(style);
 
-//Allow users to edit existing items
-li.addEventListener('dbclick', function(e){
-    const newItem = prompt("Edit item name: ", li.textContent);
-    if(newItem !== null & newItem.trim() !== ""){
-        li.textContent= newItem;//Update the text for the list item
-        saveListToLocalStorage();//save changes
-    }
-});
+
+
+
 
 
