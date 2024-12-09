@@ -27,12 +27,15 @@ clearButton.addEventListener('click', function(e){
 })
 // Add CSS to style purchased items
 const style = document.createElement('style');
-style.textContent = `
+style.textContent =`
     .purchased {
-        text-decoration: line-through;
+        text-decoration: underline;
         background-color: #d4edda; /* Light green background */
+        display:inline;
+        padding: 5px;
+        border-radius: 5px;
         color: #155724; /* Dark green text */
-    }
+    }        
 `;
 document.head.appendChild(style);
 
