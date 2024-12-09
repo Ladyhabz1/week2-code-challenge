@@ -27,7 +27,7 @@ git clone git@github.com:Ladyhabz1/week2-code-challenge.git
 ```bash
 cd week2-code-challenge
 ```
-#### 3. Open the App
+#### 2. Open the App
 You can open the app directly in your browser by opening the `index.html` file:
 - **Windows:** Double-click the file.
 - **Mac/Linux:** Use the command:
