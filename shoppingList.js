@@ -31,7 +31,7 @@ style.textContent =`
     .purchased {
         text-decoration: underline;
         background-color: #d4edda; /* Light green background */
-        display:inline;
+        display:list-item;
         padding: 5px;
         border-radius: 5px;
         color: #155724; /* Dark green text */
