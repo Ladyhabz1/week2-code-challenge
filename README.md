@@ -3,8 +3,7 @@
 ### Shopping List Web App
 
 ### Description
-
-A simple and interactive web application for managing your shopping list. This app allows users to add, edit, search, and organize items effortlessly. Built with modern web technologies like **HTML5**, **CSS3**, and **JavaScript**, it offers a clean and intuitive user experience.
++ A simple and interactive web application for managing your shopping list. This app allows users to add, edit, search, and organize items effortlessly. Built with modern web technologies like **HTML5**, **CSS3**, and **JavaScript**, it offers a clean and intuitive user experience.
 ---
 ## **Key Features**
 - Add items 
