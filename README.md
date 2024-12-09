@@ -1,6 +1,6 @@
-# WK2-CODE-CHALLANGE
-# Shopping List Web App
-## **Description**
+## WK2-CODE-CHALLANGE
+### Shopping List Web App
+### **Description**
 A simple and interactive web application for managing your shopping list. This app allows users to add, edit, search, and organize items effortlessly. Built with modern web technologies like **HTML5**, **CSS3**, and **JavaScript**, it offers a clean and intuitive user experience.
 ---
 ## **Key Features**
@@ -20,7 +20,7 @@ To run the project, you’ll need:
 Open your terminal and execute the following command:
 ```bash
 git clone git@github.com:Ladyhabz1/week2-code-challenge.git
-```🌐 [Portfolio Website](https://KairuMaina-dev.netlify.app)  
+``
 #### 2. Navigate to the Project Folder
 ```bash
 cd week2-code-challenge
@@ -50,9 +50,22 @@ To serve the app locally, use an HTTP server like `http-server`:
 - **JavaScript** - For interactivity and functionality.
 
 ---
+## Contribution
+
+Contributions are welcome! If you'd like to improve or expand on these programs:
+
+- Fork the repository.
+- Create a new branch:
+- git checkout -b feature/your-feature-name
+- Make your changes and commit:
+- git commit -m "Add your message here"
+- Push your branch:
+
+---
 ## **Contact**
-Created by **Habiba Hassan**  
-📧 Feel free to reach out for collaboration or feedback!
+Can be reached by the email below for questions and comments 
+
+[Email](guyohabibahassan@gmail.com)
 ---
 ## **License**
 This project is licensed under the MIT License.
