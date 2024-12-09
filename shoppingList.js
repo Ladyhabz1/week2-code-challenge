@@ -1,3 +1,4 @@
+let shoppingListArray=[];
 //select the DOM elements
 const form = document.getElementById('addListForm');
 const itemNameInput = document.getElementById("item_input");
@@ -20,7 +21,6 @@ form.addEventListener('submit', function(e){
     }
        
 });
-
 
 //Add event listener for clearing the list
 clearButton.addEventListener('click', function(e){
