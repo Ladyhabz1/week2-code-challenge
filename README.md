@@ -41,12 +41,24 @@ To run the project, you’ll need:
 
 Contributions are welcome! If you'd like to improve or expand on these programs:
 
-- Fork the repository.
-- Create a new branch:
-- git checkout -b feature/your-feature-name
-- Make your changes and commit:
-- git commit -m "Add your message here"
-- Push your branch:
+1. Fork the repo
+2. create a new branch 
+
+```bash
+git checkout -b feature/yourfeature
+```
+3. Commit your changes 
+
+```bash 
+git commit -m "Add a new feature"
+```
+
+4. Push to the branch
+``` bash
+git push origin feature/YourFeature 
+```
+
+5. Open a pull request
 
 ---
 ## Contact
