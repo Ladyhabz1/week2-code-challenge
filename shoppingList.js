@@ -42,7 +42,7 @@ style.textContent = `
         text-decoration: underline;
         display: list-item;
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 10px;
         color: #155724; /* Dark green text */
     }        
 `;
